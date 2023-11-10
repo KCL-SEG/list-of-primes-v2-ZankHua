@@ -3,7 +3,7 @@
 
 def is_prime(n):
     """Check if a number is a prime number."""
-    if n <= 0:
+    if number_of_primes <= 0:
         raise ValueError("number_of_primes must be a positive integer")
     
     if n <= 1:
